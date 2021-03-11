@@ -1,0 +1,188 @@
+/* LANDING PAGE */
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.main-home body{
+    overflow: hidden;
+}
+
+#main-img{
+    height: 49rem;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    border: 10px solid rgba(216, 182, 245, 0.397);
+    border-radius: 10px;
+}
+
+#nav.home{
+    margin: 1.5rem 0;
+}
+
+
+ul{
+    margin-left: 75rem;
+}
+
+ul > li{
+    display: inline;
+    padding: 0 1rem;
+    font-family: "Amatic SC", helvetica, arial;
+    font-size: 2rem;
+}
+
+li > a:link, a:visited, a:hover, a:active{
+    color: white;
+    text-decoration: none;
+}
+
+li > a:hover{
+    color:rgba(216, 182, 245, 0.397);
+}
+
+.home-title{
+    margin-top: -38rem;
+    margin-left: 60.6rem;
+    background-color: rgba(255, 255, 255,0.1);
+    position: relative;
+    width: 27rem;
+    border: 1px solid rgba(255, 255, 255,0.1);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+h1{
+    font-family: "Allura", script;
+    font-size: 5rem;
+    margin: 0;
+}
+
+h2{
+    font-family: "Amatic SC", helvetica, arial;
+    font-size: 1.9rem;
+    margin: 0 auto;
+    padding-left: 55px;
+}
+
+footer{
+    margin-top: 27.4rem;
+    margin-left: -62rem;
+}
+
+#socials ul>li{
+    font-size: 1.5rem;
+    padding: 0 7px;
+}
+
+/* font-family: 'Allura', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Reenie Beanie', cursive; */
+
+/* GALLERY */
+
+#img-collection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first.row img,
+.third.row img{
+    max-height: 30rem;
+}
+
+.second.row img{
+    max-height: 15rem;
+}
+
+.row img{
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+#socials.gallery{
+    margin-top: 1rem;
+    margin-left: -27.5rem;
+}
+
+.title h1{
+    width: 26rem;
+    margin-top: -5rem;
+    margin-left: 3rem;
+    margin-bottom: 0;
+}
+
+.gallery.nav{
+    margin-top: 3rem;
+}
+
+
+/* ABOUT */
+
+#about-heather{
+    display: flex;
+    align-items: center;
+    width: 100vh;
+    margin: 5rem auto 0;
+}
+.blurb{
+    width: 35rem;
+    text-align: center;
+}
+
+.blurb.img {
+    width: 855px;
+    height: 685px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 5%;
+}
+.blurb.img img {
+  display: inline;
+  margin: 0 auto;
+  margin-left: -25%;
+  height: 100%;
+  width: auto;
+}
+
+#socials.about{
+    margin-top: 1rem;
+    margin-left: -27.5rem;
+}
+
+/* .blurb p{
+    font-family: "Amatic SC", helvetica, arial;
+    font-size: 22px;
+} */
+
+/* CONTACT */
+
+#contact-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.user.form{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+
+#body{
+    height: 6rem;
+}
+
+.contact.blurb{
+    margin: 15rem auto 0;
+}
+
+#socials{
+    margin-top: 1rem;
+    margin-left: -27.5rem;
+}
