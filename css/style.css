@@ -4,28 +4,28 @@ body{
     background-color: black;
     color: white;
 }
-
+main{
+    height: 50rem;
+}
 .main-home body{
     overflow: hidden;
 }
 
 #main-img{
-    height: 49rem;
+    width: 95%;
     display: block;
     margin: 0 auto;
     position: relative;
     border: 10px solid rgba(216, 182, 245, 0.397);
     border-radius: 10px;
 }
-
+/* play with this for the position of the nav, or mmaybe make it fixed */
 #nav.home{
     margin: 1.5rem 0;
+    padding-left: 65%;
 }
 
 
-ul{
-    margin-left: 65rem;
-}
 
 ul > li{
     display: inline;
@@ -45,7 +45,7 @@ li > a:hover{
 
 .home-title{
     margin-top: -38rem;
-    margin-left: 50rem;
+    margin-left: 60%;
     background-color: rgba(255, 255, 255,0.1);
     position: relative;
     width: 27rem;
@@ -70,6 +70,14 @@ h2{
 footer{
     margin-top: 27.4rem;
     margin-left: -62rem;
+}
+
+#socials{
+    margin-top: 1rem;
+    margin-left: -27.5rem;
+}
+#socials ul{
+    margin-left: 65rem;
 }
 
 #socials ul>li{
@@ -189,4 +197,35 @@ font-family: 'Reenie Beanie', cursive; */
 #socials{
     margin-top: 1rem;
     margin-left: -27.5rem;
+}
+@media screen and (max-width: 750px){
+    #nav.home {
+        margin: 1.5rem 0;
+        padding-left: 0;
+    }
+    main{
+        height: 25rem;
+    }
+    #main-img {
+        width: 95%;
+        height: 23rem;
+    }
+    .home-title {
+        margin-top: -22rem;
+        margin-left: 38%;
+        width: 13rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.3rem;
+        padding-left: 5px;
+    }
+    #socials {
+        margin-left: -15.5rem;
+    }
+    #socials ul {
+        margin-left: 17rem;
+    }
 }
