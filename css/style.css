@@ -204,11 +204,11 @@ font-family: 'Reenie Beanie', cursive; */
         padding-left: 0;
     }
     main{
-        height: 26rem;
+        height: 25rem;
     }
     #main-img {
         width: 95%;
-        height: 25rem;
+        height: 23rem;
     }
     .home-title {
         margin-top: -22rem;
