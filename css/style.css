@@ -4,7 +4,9 @@ body{
     background-color: black;
     color: white;
 }
-
+main{
+    height: 50rem;
+}
 .main-home body{
     overflow: hidden;
 }
@@ -17,15 +19,13 @@ body{
     border: 10px solid rgba(216, 182, 245, 0.397);
     border-radius: 10px;
 }
-
+/* play with this for the position of the nav, or mmaybe make it fixed */
 #nav.home{
     margin: 1.5rem 0;
+    padding-left: 65%;
 }
 
 
-ul{
-    margin-left: 65rem;
-}
 
 ul > li{
     display: inline;
@@ -45,7 +45,7 @@ li > a:hover{
 
 .home-title{
     margin-top: -38rem;
-    margin-left: 50rem;
+    margin-left: 60%;
     background-color: rgba(255, 255, 255,0.1);
     position: relative;
     width: 27rem;
@@ -70,6 +70,14 @@ h2{
 footer{
     margin-top: 27.4rem;
     margin-left: -62rem;
+}
+
+#socials{
+    margin-top: 1rem;
+    margin-left: -27.5rem;
+}
+#socials ul{
+    margin-left: 65rem;
 }
 
 #socials ul>li{
